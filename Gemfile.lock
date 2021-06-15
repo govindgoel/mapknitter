@@ -138,7 +138,7 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (0.3.3)
-      mimemagic (~> 0.3.10)
+      mimemagic (~> 0.3.6)
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
@@ -177,7 +177,7 @@ GEM
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
       mime-types
-      mimemagic (~> 0.3.0)
+      mimemagic (~> 0.3.6)
       terrapin (~> 0.6.0)
     parallel (1.19.1)
     parser (2.7.1.1)
