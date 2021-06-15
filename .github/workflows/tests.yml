@@ -9,7 +9,7 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.4.6
-        bundler-cache: true
+        bundler-cache: false
     - uses: ./.github/actions/setup-test-environment
     - name: "Model Tests"
       env:
@@ -37,7 +37,7 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.4.6
-        bundler-cache: true
+        bundler-cache: false
     - uses: ./.github/actions/setup-test-environment
     - name: Install JavaScript dependencies with Yarn
       run: yarn check || yarn install;
@@ -55,7 +55,7 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.4.6
-        bundler-cache: true
+        bundler-cache: false
     - uses: ./.github/actions/setup-test-environment
     - name: Install JavaScript dependencies with Yarn
       run: yarn check || yarn install;
@@ -85,7 +85,7 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.4.6
-        bundler-cache: true
+        bundler-cache: false
     - uses: nanasess/setup-chromedriver@v1.0.1
     - uses: ./.github/actions/setup-test-environment
     - name: Install JavaScript dependencies with Yarn
