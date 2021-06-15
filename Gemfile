@@ -6,7 +6,6 @@ gem 'rake',  '~> 13.0.1'
 gem 'tzinfo-data'
 gem 'skylight'
 gem 'sentry-raven'
-gem 'mimemagic', '~> 0.3.6'
 
 gem 'will_paginate', '3.3.0'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
