@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 ruby '2.4.6'
 gem 'rails', '~> 5.2.4'
-gem 'rake',  '~> 13.0.1'
 gem 'tzinfo-data'
 gem 'skylight'
 gem 'sentry-raven'
@@ -28,6 +27,8 @@ group :dependencies do
   gem 'turbolinks', '~> 5'
   gem 'mini_magick', '~> 4.8'
   gem 'puma', '~> 4.3.6'
+  gem 'mimemagic', '~> 0.3.10'
+  gem 'rake',  '~> 13.0.1'
 
   # if you use amazon s3 for warpable image storage
   gem 'aws-sdk-s3', '~> 1'
